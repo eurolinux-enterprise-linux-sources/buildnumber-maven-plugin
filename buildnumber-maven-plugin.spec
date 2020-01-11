@@ -1,6 +1,6 @@
 Name:           buildnumber-maven-plugin
 Version:        1.2
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Build Number Maven Plugin
 
 Group:          Development/Libraries
@@ -88,6 +88,9 @@ cp -p %{SOURCE2} .
 %doc LICENSE.txt LICENSE-2.0.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2-7
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 1.2-6
 - Migrate away from mvn-rpmbuild (Resolves: #997488)
 - Remove unneeded BR
